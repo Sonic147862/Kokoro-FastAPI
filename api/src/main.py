@@ -18,6 +18,7 @@ from .routers.debug import router as debug_router
 from .routers.development import router as dev_router
 from .routers.openai_compatible import router as openai_router
 from .routers.web_player import router as web_router
+from .routers.captions import router as captions_router
 
 
 def setup_logger():
